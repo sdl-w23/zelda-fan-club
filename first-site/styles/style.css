@@ -1,0 +1,93 @@
+body{
+    background-color: #7100ce;
+}
+
+
+main{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.signup-btn{
+    right: 80px;
+    position: absolute;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #1f0050;
+    cursor: pointer;
+}
+.logo img{
+    width: 100px;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+
+h1, h2, h3{
+    text-shadow: 3px 1px 20px purple;
+    font-family: 'Red Rose', cursive;
+    letter-spacing: 6px;
+    display: block;
+    text-align: center;
+}
+
+p{
+    margin: 0 100px;
+}
+
+#comments h2 {
+    text-align: left;
+}
+
+#title-pic, img{
+    display: block;
+}
+
+#title-pic{
+    padding: 1px;
+    border: 3px solid black;
+    border-radius: 25px;
+    
+}
+#title-pic p{
+    text-align: center;
+    padding: 5px;
+}
+
+#title{
+    margin: 0; /*eliminates gap due to default h1 styling*/
+    padding: 20px 0;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+#zelda-pic{
+    height: 450px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#comments{
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#zelda-talk p {
+    padding-bottom: 20px;
+}
+
+.comment-time{
+    font-size: 80%;
+}
